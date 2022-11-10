@@ -19,5 +19,7 @@ function draw() {
     dy = -dy    
   }
   background(220);
-  circle(x,y,10)
+
+  // changed diameter to 20 - gsd
+  circle(x,y,20)
 }
