@@ -18,7 +18,7 @@ function draw() {
   if ((y > 400) | (y < 0)) {
     dy = -dy    
   }
-  background(220);
+  background(255, 160, 122);
 
   // changed diameter to 20 - gsd
   circle(x,y,20)
