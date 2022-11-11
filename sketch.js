@@ -1,5 +1,6 @@
-var dx = 2.0
-var dy = 1.3
+//updated ball speed - jw
+var dx = 5.5
+var dy = 2.0
 var x = 0
 var y = 0
 
