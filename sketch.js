@@ -8,16 +8,16 @@ var y = 0
 function setup() {
   x = 0
   y = 0
-  createCanvas(500, 500);
+  createCanvas(450, 450);
 }
 
 function draw() {
   x = x + dx
   y = y + dy
-  if ((x > 500) | (x < 0)) {
+  if ((x > 450) | (x < 0)) {
     dx = -dx    
   }
-  if ((y > 500) | (y < 0)) {
+  if ((y > 450) | (y < 0)) {
     dy = -dy    
   }
   background(255, 160, 122);
